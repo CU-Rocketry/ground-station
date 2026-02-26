@@ -852,6 +852,137 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Blah\n"
+		(exclude_from_sim no)
+		(at 34.036 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36f4007c-41ec-4846-b7c8-c09d764726c4")
+	)
+	(hierarchical_label "LED_3_R"
+		(shape output)
+		(at 30.48 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c0b56be-53ad-4bb1-a931-3210d258f76d")
+	)
+	(hierarchical_label "LED_3_G"
+		(shape output)
+		(at 30.48 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f1a2408-7d00-4c3d-8f67-a5137f29c630")
+	)
+	(hierarchical_label "LED_1_B"
+		(shape output)
+		(at 30.48 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "284c270b-af05-47f3-8d31-9c91d3111171")
+	)
+	(hierarchical_label "LED_2_R"
+		(shape output)
+		(at 30.48 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31d1ad36-54aa-4bab-9a89-08bb05bcbfcc")
+	)
+	(hierarchical_label "BTN_1"
+		(shape input)
+		(at 30.48 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44cb5851-69d7-46b5-9f0f-a3da0fd44b05")
+	)
+	(hierarchical_label "LED_1_R"
+		(shape output)
+		(at 30.48 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4fc39fc-b28b-4aea-a7bc-5dbcc4349826")
+	)
+	(hierarchical_label "LED_1_G"
+		(shape output)
+		(at 30.48 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba4d70b0-ae1c-4b6b-9477-d6ce9cbe6884")
+	)
+	(hierarchical_label "LED_3_B"
+		(shape output)
+		(at 30.48 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c03f7b1f-6bb9-4f1e-b954-fca04672f8d2")
+	)
+	(hierarchical_label "LED_2_B"
+		(shape output)
+		(at 30.48 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca643713-72f2-4359-8c8c-716b1903134a")
+	)
+	(hierarchical_label "BUZZER"
+		(shape output)
+		(at 30.48 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d81c0190-0a41-4216-90f5-471bebd27b43")
+	)
+	(hierarchical_label "LED_2_G"
+		(shape output)
+		(at 30.48 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd1be074-e160-460b-8dc1-38406b52fae0")
+	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 149.86 96.52 0)
