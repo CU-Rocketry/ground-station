@@ -3,4 +3,5 @@
   (lib (name "Microchip_Battery_Management")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Microchip_Battery_Management.kicad_sym")(options "")(descr ""))
   (lib (name "TI_Battery_Management")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/TI_Battery_Management.kicad_sym")(options "")(descr ""))
   (lib (name "Regulator_Linear_onsemi")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Regulator_Linear_onsemi.kicad_sym")(options "")(descr ""))
+  (lib (name "WeAct-Studio-Epaper")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/WeAct-Studio-Epaper.kicad_sym")(options "")(descr ""))
 )
