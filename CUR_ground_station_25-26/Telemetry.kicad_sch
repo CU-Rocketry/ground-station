@@ -3235,7 +3235,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9de3261f-1535-49c5-9420-28e91ecdeaaa")
 		(property "Reference" "C8"
@@ -3247,7 +3247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "DNP"
 			(at 106.68 60.9662 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b29487cc-0c31-4169-9308-faf966949160")
 		(property "Reference" "C9"
@@ -3451,7 +3451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "DNP"
 			(at 120.65 60.9662 0)
 			(effects
 				(font
