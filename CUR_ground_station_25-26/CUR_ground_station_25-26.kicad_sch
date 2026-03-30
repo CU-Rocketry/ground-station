@@ -248,8 +248,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 109.22)
-		(size 43.18 17.78)
+		(at 50.8 38.1)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -264,7 +264,7 @@
 		)
 		(uuid "81c93bb2-d3b4-4976-ae9e-2e07f946e0a4")
 		(property "Sheetname" "Power"
-			(at 167.64 108.5084 0)
+			(at 50.8 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,12 +273,82 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 167.64 127.5846 0)
+			(at 50.8 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "~{PGOOD}" output
+			(at 76.2 60.96 0)
+			(uuid "27030aa9-e17e-4e0c-b13c-9d35f8894b5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CHG}" output
+			(at 76.2 58.42 0)
+			(uuid "840b01ff-cb75-437e-be4d-bbe0e8ed4567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_VSENSE" output
+			(at 76.2 55.88 0)
+			(uuid "3a5c60d8-c8a8-45f6-a33c-1c31d9792d0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 76.2 40.64 0)
+			(uuid "a1e20b5f-a2db-4b4e-8bfa-1d9bcf55e788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 76.2 48.26 0)
+			(uuid "ab248a8a-ead6-49fc-8c94-a9b11dc55d79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 76.2 50.8 0)
+			(uuid "1a3e9196-b12d-44ab-b13d-4170d70fd86a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_BTN" output
+			(at 76.2 43.18 0)
+			(uuid "e4dc2518-0878-4585-b756-b0570f079b8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -290,8 +360,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 66.04)
-		(size 36.83 78.74)
+		(at 88.9 38.1)
+		(size 38.1 114.3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -306,7 +376,7 @@
 		)
 		(uuid "93f1773d-50f2-4b84-8490-36583ba7e964")
 		(property "Sheetname" "MCU"
-			(at 124.46 65.3284 0)
+			(at 88.9 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +385,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 124.46 145.3646 0)
+			(at 88.9 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,7 +394,7 @@
 			)
 		)
 		(pin "BTN_1" input
-			(at 124.46 92.71 180)
+			(at 88.9 78.74 180)
 			(uuid "ef1f8a29-6600-4360-83e4-96cd1d22a305")
 			(effects
 				(font
@@ -334,7 +404,7 @@
 			)
 		)
 		(pin "BUZZER" output
-			(at 124.46 95.25 180)
+			(at 88.9 91.44 180)
 			(uuid "c9f7df77-6856-4ad4-a0bd-96c7ca9b945a")
 			(effects
 				(font
@@ -344,7 +414,7 @@
 			)
 		)
 		(pin "LED_1_B" output
-			(at 124.46 110.49 180)
+			(at 88.9 119.38 180)
 			(uuid "8daa70cf-b03a-439b-a057-496e68c98cb7")
 			(effects
 				(font
@@ -354,7 +424,7 @@
 			)
 		)
 		(pin "LED_1_G" output
-			(at 124.46 113.03 180)
+			(at 88.9 116.84 180)
 			(uuid "24a16ef2-b847-4710-9549-47d75dcd36b5")
 			(effects
 				(font
@@ -364,7 +434,7 @@
 			)
 		)
 		(pin "LED_1_R" output
-			(at 124.46 115.57 180)
+			(at 88.9 114.3 180)
 			(uuid "9f0c2a79-ce57-4c13-91c6-a5c81fc0bf77")
 			(effects
 				(font
@@ -374,7 +444,7 @@
 			)
 		)
 		(pin "LED_2_B" output
-			(at 124.46 119.38 180)
+			(at 88.9 129.54 180)
 			(uuid "f768791f-ddb3-4f6f-b98b-ca92dd97f127")
 			(effects
 				(font
@@ -384,7 +454,7 @@
 			)
 		)
 		(pin "LED_2_G" output
-			(at 124.46 121.92 180)
+			(at 88.9 127 180)
 			(uuid "84b38e22-ecc4-452c-afe7-e0b396f5b0f7")
 			(effects
 				(font
@@ -394,7 +464,7 @@
 			)
 		)
 		(pin "LED_2_R" output
-			(at 124.46 124.46 180)
+			(at 88.9 124.46 180)
 			(uuid "8783534d-973a-43a7-b25e-0083e62f0983")
 			(effects
 				(font
@@ -404,7 +474,7 @@
 			)
 		)
 		(pin "LED_3_B" output
-			(at 124.46 128.27 180)
+			(at 88.9 139.7 180)
 			(uuid "02bc7944-e455-4a73-866d-7e710b2a5cc5")
 			(effects
 				(font
@@ -414,7 +484,7 @@
 			)
 		)
 		(pin "LED_3_G" output
-			(at 124.46 130.81 180)
+			(at 88.9 137.16 180)
 			(uuid "d8cea2e1-418b-452a-a9d6-0d145eacdb28")
 			(effects
 				(font
@@ -424,8 +494,118 @@
 			)
 		)
 		(pin "LED_3_R" output
-			(at 124.46 133.35 180)
+			(at 88.9 134.62 180)
 			(uuid "a994e17e-a2ec-42c5-a90b-611b4b71a50f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_4" input
+			(at 88.9 86.36 180)
+			(uuid "5190bd29-66e7-4ad4-ac8a-1223bd2b0873")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 88.9 48.26 180)
+			(uuid "6b0a3152-e4cc-41f7-ae2c-eacc9173e583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_D/~{C}" input
+			(at 88.9 96.52 180)
+			(uuid "55d0cc5d-66da-46fe-a24e-4703b2fd41a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_CS" input
+			(at 88.9 101.6 180)
+			(uuid "7b3809ab-b086-48a5-be26-65ac38c05aa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_SDA" input
+			(at 88.9 106.68 180)
+			(uuid "2e772d01-2732-4465-813e-38bf826bd3cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_~{RES}" input
+			(at 88.9 99.06 180)
+			(uuid "932cc64f-52ea-457d-bc5a-bcbbf7d19c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_BUSY" output
+			(at 88.9 109.22 180)
+			(uuid "616042b6-0804-4515-893c-8d774937a213")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_SCL" input
+			(at 88.9 104.14 180)
+			(uuid "a278de33-fe6f-40c2-93d5-5600b70fead4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_2" input
+			(at 88.9 81.28 180)
+			(uuid "0f585cb5-4a6c-4fbf-8c6d-2a784806e324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_3" input
+			(at 88.9 83.82 180)
+			(uuid "939424db-2086-4f54-9b29-feb9b59a1dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 88.9 50.8 180)
+			(uuid "c528a4a8-c5af-408e-b882-b756b5185e84")
 			(effects
 				(font
 					(size 1.27 1.27)
