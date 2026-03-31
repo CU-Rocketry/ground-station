@@ -2609,7 +2609,7 @@
 		(uuid "0f1a2408-7d00-4c3d-8f67-a5137f29c630")
 	)
 	(hierarchical_label "PWR_BTN"
-		(shape output)
+		(shape input)
 		(at 92.71 55.88 0)
 		(effects
 			(font
@@ -2653,7 +2653,7 @@
 		(uuid "284c270b-af05-47f3-8d31-9c91d3111171")
 	)
 	(hierarchical_label "PWR_EN"
-		(shape input)
+		(shape output)
 		(at 91.44 50.8 0)
 		(effects
 			(font
@@ -2708,7 +2708,7 @@
 		(uuid "49f2fd00-a6ae-4e4a-b1fc-7557052d7f4d")
 	)
 	(hierarchical_label "~{CHG}"
-		(shape output)
+		(shape input)
 		(at 93.98 40.64 0)
 		(effects
 			(font
@@ -2741,7 +2741,7 @@
 		(uuid "6e2c68ac-67bf-4bb1-8ce2-52a2a7d126d3")
 	)
 	(hierarchical_label "~{PGOOD}"
-		(shape output)
+		(shape input)
 		(at 93.98 43.18 0)
 		(effects
 			(font
@@ -2763,7 +2763,7 @@
 		(uuid "7ddc9b70-d140-4553-9c48-842a2c5e74fa")
 	)
 	(hierarchical_label "BATT_VSENSE"
-		(shape output)
+		(shape input)
 		(at 92.71 34.29 0)
 		(effects
 			(font
