@@ -3,4 +3,6 @@
   (lib (name "XDFN8_1P6X1P2_onsemi")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/XDFN8_1P6X1P2_onsemi.pretty")(options "")(descr ""))
   (lib (name "WeAct-Studio-2.13-Epaper")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/WeAct-Studio-2.13-Epaper.pretty")(options "")(descr ""))
   (lib (name "EBYTE_LoRa")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/EBYTE_LoRa.pretty")(options "")(descr ""))
+  (lib (name "TestPoint_KOASpeer")(type "KiCad")(uri "/Users/haileymeagher/Desktop/GitHub/kicad-library/footprints/TestPoint_KOASpeer.pretty")(options "")(descr ""))
+  (lib (name "Buzzer_SameSky")(type "KiCad")(uri "/Users/haileymeagher/Desktop/GitHub/kicad-library/footprints/Buzzer_SameSky.pretty")(options "")(descr ""))
 )
