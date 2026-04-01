@@ -3589,7 +3589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 41.91 0)
 			(effects
 				(font
@@ -3814,7 +3814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_SameSky:XDCR_CMT-7525-03-SMT-TR"
 			(at 255.905 27.94 90)
 			(effects
 				(font

@@ -5,4 +5,5 @@
   (lib (name "EBYTE_LoRa")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/EBYTE_LoRa.pretty")(options "")(descr ""))
   (lib (name "TestPoint_KOASpeer")(type "KiCad")(uri "/Users/haileymeagher/Desktop/GitHub/kicad-library/footprints/TestPoint_KOASpeer.pretty")(options "")(descr ""))
   (lib (name "Buzzer_SameSky")(type "KiCad")(uri "/Users/haileymeagher/Desktop/GitHub/kicad-library/footprints/Buzzer_SameSky.pretty")(options "")(descr ""))
+  (lib (name "Conn_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S")(type "KiCad")(uri "/Users/haileymeagher/Desktop/GitHub/kicad-library/footprints/Conn_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S")(options "")(descr ""))
 )

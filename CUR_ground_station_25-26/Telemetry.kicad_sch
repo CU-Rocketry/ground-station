@@ -3767,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coxaial_RFSOLUTIONS_CON-SMA-EDGE-S:Conn_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Conn_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S:Conn_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S"
 			(at 129.54 55.88 0)
 			(effects
 				(font
