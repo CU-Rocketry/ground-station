@@ -225,7 +225,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0e17343e-88ef-423f-9085-6f621fbc3a0f")
-		(at 37.025 70.39)
+		(at 56.225 114)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -250,7 +250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -262,7 +262,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -451,7 +451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -464,7 +464,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -564,7 +564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -576,7 +576,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "dual schottky barrier diode, common cathode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -584,6 +584,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "DS0140568"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f3ba5d3-cad0-495a-97b7-10ccf4657f15")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -888,7 +901,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -901,7 +914,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1003,7 +1016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1016,7 +1029,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1116,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1128,7 +1141,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1317,7 +1330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1329,7 +1342,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1578,7 +1591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1591,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1691,7 +1704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1703,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1865,7 +1878,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "24a8cf16-0286-4085-b43e-cb31dfb5de97")
-		(at 31.015 72.9)
+		(at 125 85.49)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -1890,7 +1903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1902,7 +1915,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2089,7 +2102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2101,7 +2114,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, anode/red/green/blue"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2325,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2337,7 +2350,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2345,6 +2358,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "SKRPADE010"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf02af45-69e7-4741-afc9-5e5a3addf729")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2584,7 +2610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2596,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2604,6 +2630,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "CL05X105KP5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1378b0e1-c169-4b75-bbdc-fd3eb643ab6a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2783,7 +2822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2795,7 +2834,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3058,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3070,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3257,7 +3296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3269,7 +3308,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "dual schottky barrier diode, common cathode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3277,6 +3316,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "DS0140568"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1f1c853-6e5c-431f-ae91-2e69ff9f49de")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3554,7 +3606,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3d43bb98-c042-4cd8-8a3b-9b7ebf2b5989")
-		(at 37.025 72.9)
+		(at 57 110.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -3579,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3591,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3778,7 +3830,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3790,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3978,7 +4030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp186-d.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3990,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V 1A 100mV LDO"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4220,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4232,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4421,7 +4473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4434,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4534,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4546,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4735,7 +4787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4748,7 +4800,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4848,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4860,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5047,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5059,7 +5111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5067,6 +5119,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "WR04X1003FTL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "231b011d-ba53-479b-a530-4546987658f9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5248,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5261,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5361,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5373,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5560,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5572,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5761,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5774,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5874,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5886,7 +5951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6200,7 +6265,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6212,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6461,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6474,7 +6539,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6574,7 +6639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6586,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6773,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/cn/lit/ds/symlink/bq24230.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6785,7 +6850,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC, VQFN-16"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7416,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7428,7 +7493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7444,7 +7509,7 @@
 		(path "/b33322ac-e22c-4f1e-acb4-998976370618/9de3261f-1535-49c5-9420-28e91ecdeaaa")
 		(sheetname "/Telemetry/")
 		(sheetfile "Telemetry.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -7615,7 +7680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7627,7 +7692,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7814,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7826,7 +7891,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8015,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8028,7 +8093,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8128,7 +8193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8140,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8329,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8341,7 +8406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8587,7 +8652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cem-1203-42-.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8599,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Description" "Magnetic Buzzer Transducer 3V rated 3-5V operating voltage 95 dB"
+		(property "Description" "Buzzer, polarized"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8738,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8750,7 +8815,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9086,7 +9151,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "99af6d0d-4578-43b0-8be0-8cf169b451cf")
-		(at 113.3075 64.400004 180)
+		(at 112.5 63 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -9111,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9123,7 +9188,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9131,6 +9196,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c27701e-a665-4740-b514-2ad3107d8637")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9312,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9325,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9427,7 +9505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9440,7 +9518,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9515,11 +9593,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a613e8ee-67e6-44ea-8e15-b6987a9a3c4c")
-		(at 85.7 81.5 90)
+		(at 83.225 82.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.43 90)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "8186f86e-81d7-4671-83ac-ee1e368f19cf")
 			(effects
@@ -9530,7 +9608,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 0 1.43 90)
+			(at 0 1.8 0)
 			(layer "F.Fab")
 			(uuid "a45aa90c-5508-4a00-8262-9b07486dac3a")
 			(effects
@@ -9540,8 +9618,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdb24c9b-8ac3-4982-a065-3cd2b4c91640")
@@ -9552,8 +9630,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 90)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38bc62fc-12b6-44d3-98fd-71f532accf5c")
@@ -9568,20 +9646,10 @@
 		(path "/93f1773d-50f2-4b84-8490-36583ba7e964/5f487b27-dd0a-453c-a75f-2d5bf7a3ade6")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "602e8742-b28c-43f9-ab43-ce6abed988ff")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9590,24 +9658,14 @@
 			(uuid "44da330f-9f91-4ea7-bf11-3d7d1215be77")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "6058c54e-f3b8-4683-8a3e-a43e4717d4a2")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "981f7f91-b819-4ece-a9b5-e08956037375")
+			(layer "F.SilkS")
+			(uuid "602e8742-b28c-43f9-ab43-ce6abed988ff")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -9620,6 +9678,16 @@
 			(uuid "ea9dc80e-e190-4df6-a1c0-cffeafc086c8")
 		)
 		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6058c54e-f3b8-4683-8a3e-a43e4717d4a2")
+		)
+		(fp_line
 			(start -1.48 0.73)
 			(end -1.48 -0.73)
 			(stroke
@@ -9630,24 +9698,14 @@
 			(uuid "a50c1934-c753-4a8e-b9b6-8164305c1efa")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "dfdbfed0-c84c-48ad-af6d-a1d7a43da57d")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86c9e060-5c58-44bb-b535-37facb5c538d")
+			(layer "F.CrtYd")
+			(uuid "981f7f91-b819-4ece-a9b5-e08956037375")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -9660,6 +9718,16 @@
 			(uuid "019c605e-7f68-49b9-b9d4-3777a931d17c")
 		)
 		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dfdbfed0-c84c-48ad-af6d-a1d7a43da57d")
+		)
+		(fp_line
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
@@ -9669,8 +9737,18 @@
 			(layer "F.Fab")
 			(uuid "f0ef5c02-398d-47b9-abaa-2f2bbf165a13")
 		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86c9e060-5c58-44bb-b535-37facb5c538d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c52dc6c1-b6d2-4016-b6a4-e2cc9f7da73d")
 			(effects
@@ -9681,7 +9759,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 90)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9690,7 +9768,7 @@
 			(uuid "d35c6f21-eade-44e7-acea-5cabb0465a32")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 90)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9714,7 +9792,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "aa49c3c6-aaaa-4974-8c69-7c9700a7bfd9")
-		(at 85.7 84.7 90)
+		(at 86 85 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -9739,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9751,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9938,7 +10016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9950,7 +10028,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10137,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10149,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10311,11 +10389,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "b1df18f1-cf2e-4aa3-b09d-48e9b9d9aa55")
-		(at 109.562499 66.3 -90)
+		(at 112.5 66 180)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 0 -2.4 270)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "848643ae-6d17-42d7-9e8c-8c21d74487fd")
 			(effects
@@ -10326,7 +10404,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 270)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "a15dd413-0ce1-42ae-a18c-d1cdb8c19de1")
 			(effects
@@ -10336,8 +10414,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 270)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d89ceb06-ba36-4102-886b-22fb4d57a390")
@@ -10348,8 +10426,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd6e7bb1-117a-4cf9-8aea-c18a749a2beb")
@@ -10360,21 +10438,24 @@
 				)
 			)
 		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0ec575b-cb39-422e-9dd9-a4c1c6204d5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/81c93bb2-d3b4-4976-ae9e-2e07f946e0a4/7b8b03ce-0f93-435a-97bb-137d9466c993")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.91 1.56)
-			(end -0.91 1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "981ce96a-9c95-425d-8749-d709bd5cbeb0")
-		)
 		(fp_line
 			(start 0.91 1.56)
 			(end -0.91 1.56)
@@ -10396,6 +10477,26 @@
 			(uuid "846271b0-1b5e-499d-b8d2-487e20551520")
 		)
 		(fp_line
+			(start 0.91 -1.56)
+			(end 0.91 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b7d1621f-3513-4867-ac8e-f59a17abde62")
+		)
+		(fp_line
+			(start -0.91 1.56)
+			(end -0.91 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "981ce96a-9c95-425d-8749-d709bd5cbeb0")
+		)
+		(fp_line
 			(start -0.91 -1.51)
 			(end -0.91 -1.56)
 			(stroke
@@ -10415,16 +10516,6 @@
 			(layer "F.SilkS")
 			(uuid "68320526-6704-47f0-90e4-19796142a7de")
 		)
-		(fp_line
-			(start 0.91 -1.56)
-			(end 0.91 -1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b7d1621f-3513-4867-ac8e-f59a17abde62")
-		)
 		(fp_poly
 			(pts
 				(xy -1.45 -1.51) (xy -1.69 -1.84) (xy -1.21 -1.84)
@@ -10438,56 +10529,6 @@
 			(uuid "ef89813a-a40f-46ab-b877-bbc4368b70ed")
 		)
 		(fp_line
-			(start -1.05 1.7)
-			(end -1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b7a35030-d8e3-4ede-b2b5-74e10ffd3078")
-		)
-		(fp_line
-			(start 1.05 1.7)
-			(end -1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3cc9f1c6-d3b1-4839-bc4b-d810906da7f7")
-		)
-		(fp_line
-			(start -2.05 1.5)
-			(end -2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "596794b7-3dd7-48d8-a2e5-ddf2a0562ed5")
-		)
-		(fp_line
-			(start -1.05 1.5)
-			(end -2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8f8dac9a-77fd-48f6-bf34-b023d388de08")
-		)
-		(fp_line
-			(start 1.05 1.5)
-			(end 1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cee3f4ac-2524-422c-91cc-7e2cf63302e3")
-		)
-		(fp_line
 			(start 2.05 1.5)
 			(end 1.05 1.5)
 			(stroke
@@ -10496,36 +10537,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "cc2f2426-4ad1-469f-9677-72d6f66dabe0")
-		)
-		(fp_line
-			(start -2.05 -1.5)
-			(end -1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ae761c66-863d-4698-8368-03735e4aa60f")
-		)
-		(fp_line
-			(start -1.05 -1.5)
-			(end -1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7930aaff-8c05-4552-bb3b-85862580087e")
-		)
-		(fp_line
-			(start 1.05 -1.5)
-			(end 2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a0a4f3b7-0056-4856-a756-16c65f32d5f0")
 		)
 		(fp_line
 			(start 2.05 -1.5)
@@ -10538,17 +10549,17 @@
 			(uuid "350268d4-5acc-476a-8b8e-ecfab0face6e")
 		)
 		(fp_line
-			(start -1.05 -1.7)
-			(end 1.05 -1.7)
+			(start 1.050001 1.7)
+			(end -1.050001 1.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "06afea13-6762-4823-8288-48b045825716")
+			(uuid "3cc9f1c6-d3b1-4839-bc4b-d810906da7f7")
 		)
 		(fp_line
-			(start 1.05 -1.7)
+			(start 1.050001 -1.7)
 			(end 1.05 -1.5)
 			(stroke
 				(width 0.05)
@@ -10557,9 +10568,89 @@
 			(layer "F.CrtYd")
 			(uuid "7bdef007-6f21-421c-bcb7-46aff03dda83")
 		)
+		(fp_line
+			(start 1.05 1.5)
+			(end 1.050001 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cee3f4ac-2524-422c-91cc-7e2cf63302e3")
+		)
+		(fp_line
+			(start 1.05 -1.5)
+			(end 2.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0a4f3b7-0056-4856-a756-16c65f32d5f0")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end -2.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f8dac9a-77fd-48f6-bf34-b023d388de08")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.050001 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7930aaff-8c05-4552-bb3b-85862580087e")
+		)
+		(fp_line
+			(start -1.050001 1.7)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b7a35030-d8e3-4ede-b2b5-74e10ffd3078")
+		)
+		(fp_line
+			(start -1.050001 -1.7)
+			(end 1.050001 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06afea13-6762-4823-8288-48b045825716")
+		)
+		(fp_line
+			(start -2.05 1.5)
+			(end -2.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "596794b7-3dd7-48d8-a2e5-ddf2a0562ed5")
+		)
+		(fp_line
+			(start -2.05 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae761c66-863d-4698-8368-03735e4aa60f")
+		)
 		(fp_poly
 			(pts
-				(xy -0.8 -1.05) (xy -0.8 1.45) (xy 0.8 1.45) (xy 0.8 -1.45) (xy -0.4 -1.45)
+				(xy -0.8 -1.050001) (xy -0.8 1.45) (xy 0.8 1.45) (xy 0.8 -1.45) (xy -0.4 -1.45)
 			)
 			(stroke
 				(width 0.1)
@@ -10570,7 +10661,7 @@
 			(uuid "5b3f5535-45d4-4167-9d82-fd3fc5133e6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3851a341-58cb-4622-ac0c-df1b7eb1fbef")
 			(effects
@@ -10581,7 +10672,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.1375 -0.95 270)
+			(at -1.1375 -0.949999 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10591,7 +10682,7 @@
 			(uuid "2887b885-6738-45b6-bfcb-d460dbd56165")
 		)
 		(pad "2" smd roundrect
-			(at -1.1375 0 270)
+			(at -1.1375 0 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10601,7 +10692,7 @@
 			(uuid "5476c8a0-7742-40c1-833b-2fb9a175c15c")
 		)
 		(pad "3" smd roundrect
-			(at -1.1375 0.95 270)
+			(at -1.1375 0.949999 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10611,7 +10702,7 @@
 			(uuid "5cfecdd9-bb31-471f-ac61-73d914db77db")
 		)
 		(pad "4" smd roundrect
-			(at 1.1375 0.95 270)
+			(at 1.1375 0.949999 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10621,7 +10712,7 @@
 			(uuid "a5cf9686-616b-4a83-a91e-83026ec4d401")
 		)
 		(pad "5" smd roundrect
-			(at 1.1375 0 270)
+			(at 1.1375 0 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10631,7 +10722,7 @@
 			(uuid "c0d46be7-8cc6-417d-b5d5-859f6c19e604")
 		)
 		(pad "6" smd roundrect
-			(at 1.1375 -0.95 270)
+			(at 1.1375 -0.949999 180)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10681,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10693,7 +10784,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10855,7 +10946,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b93ca7de-0f2c-4f12-8da5-28d693294b7f")
-		(at 31.015 75.41)
+		(at 125 88)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -10880,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10892,7 +10983,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11079,7 +11170,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11091,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11278,7 +11369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11290,7 +11381,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11298,6 +11389,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "RTT02301JTH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b284d694-c375-40c3-b72e-0454be51ee1d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11477,7 +11581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11489,7 +11593,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, anode/red/green/blue"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11711,7 +11815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11723,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12165,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12177,7 +12281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12364,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12376,7 +12480,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12563,7 +12667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12575,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12764,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12777,7 +12881,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12877,7 +12981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12889,7 +12993,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "dual schottky barrier diode, common cathode"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12897,6 +13001,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "DS0140568"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ef0023-d6f8-472d-a3eb-4a88f6f642d9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13199,7 +13316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -13211,7 +13328,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -13400,7 +13517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13413,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14552,7 +14669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14564,7 +14681,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14813,7 +14930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14826,7 +14943,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14901,7 +15018,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d8b06359-0025-4636-b8ce-19910e58ccb4")
-		(at 84 84.7 90)
+		(at 84 85 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -14926,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14938,7 +15055,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15100,11 +15217,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "daec8bae-9718-43be-83e2-06a2028edd2d")
-		(at 84 81.515 90)
+		(at 86.775 82.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.43 90)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "14434a44-ccc7-46d5-b51a-b8717a69f040")
 			(effects
@@ -15115,7 +15232,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 0 1.43 90)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "88e1461a-7dcb-4852-86ab-7faec61f6e9c")
 			(effects
@@ -15125,8 +15242,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0848c890-8942-46c4-a214-51f3ee0e4b09")
@@ -15137,8 +15254,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 90)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd70541a-9640-44ba-8d6f-7ec70a9b4861")
@@ -15153,10 +15270,10 @@
 		(path "/93f1773d-50f2-4b84-8490-36583ba7e964/22825587-ec09-4422-98ce-a9fcfb92b5df")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15165,24 +15282,14 @@
 			(uuid "14c50edb-76b1-4819-87b1-fcd6b618b1af")
 		)
 		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "89100483-e3d7-46bd-82bc-5a24680170ef")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f0b85aef-a05e-4181-b003-26fae38af6f4")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -15195,16 +15302,6 @@
 			(uuid "53a3dac9-d841-451e-88c3-0aa68ce6262a")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "306c1522-2e4b-4fd0-b8dd-30a210e53d91")
-		)
-		(fp_line
 			(start -1.48 0.73)
 			(end -1.48 -0.73)
 			(stroke
@@ -15215,14 +15312,24 @@
 			(uuid "598dd514-003f-41b5-97da-2099aab0c117")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "014dcc79-226a-4615-851a-42b2b9d22098")
+			(layer "F.CrtYd")
+			(uuid "f0b85aef-a05e-4181-b003-26fae38af6f4")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "306c1522-2e4b-4fd0-b8dd-30a210e53d91")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -15235,16 +15342,6 @@
 			(uuid "2b17fe62-606d-4fc3-aec7-fb7ee9faa3c3")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0864a0ae-caf5-4d7e-8976-1035471ce13a")
-		)
-		(fp_line
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
@@ -15254,8 +15351,28 @@
 			(layer "F.Fab")
 			(uuid "9bbe9f80-6ff6-4aec-bc1a-aaf74b09ea56")
 		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "014dcc79-226a-4615-851a-42b2b9d22098")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0864a0ae-caf5-4d7e-8976-1035471ce13a")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "32ea1d87-06ac-4566-9d73-b4027a61c68a")
 			(effects
@@ -15266,16 +15383,16 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 90)
+			(at -0.775 0)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 26 "/MCU/USB_D+")
+			(net 49 "/MCU/USB_D-")
 			(pintype "passive")
 			(uuid "15f0a1ed-8346-4fd2-aa3a-c5167120e839")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 90)
+			(at 0.775 0)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15324,7 +15441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15336,7 +15453,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15344,6 +15461,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "RTT02301JTH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5681c3ac-2629-4c3c-b275-0b10d712dab1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15525,7 +15655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15537,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15784,7 +15914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15796,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15804,6 +15934,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "WR04X1003FTL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4cded45-58a6-4101-ac09-442ee154cd96")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15983,7 +16126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15995,7 +16138,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16182,7 +16325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16194,7 +16337,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16210,7 +16353,7 @@
 		(path "/b33322ac-e22c-4f1e-acb4-998976370618/b29487cc-0c31-4169-9308-faf966949160")
 		(sheetname "/Telemetry/")
 		(sheetfile "Telemetry.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -16379,7 +16522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16391,7 +16534,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16399,6 +16542,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-P16-TR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07b5ff3a-c739-401f-a5dd-42f3cb8d9202")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16810,7 +16966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16822,7 +16978,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17023,7 +17179,7 @@
 				)
 			)
 		)
-		(property "Description" "WeAct Studio 2.13\" Epaper Display"
+		(property "Description" "WeAct Studio 2.13\" Epaper Module"
 			(at 36.4 -3.8 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17603,7 +17759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17615,7 +17771,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17623,6 +17779,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "HQ_MPN" "DS0188329"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a954ab7-abdf-4eb3-9cf5-0e6b94becb9b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17927,7 +18096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2903765.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17940,7 +18109,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "EBYTE LoRA 400Mhz 22dbm/~150mW Module"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18253,7 +18422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18265,7 +18434,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18487,7 +18656,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f49707c7-d72e-4332-bf84-6f10a56e3df6")
-		(at 31.015 70.39)
+		(at 125 82.98)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -18512,7 +18681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18524,7 +18693,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18713,7 +18882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18726,7 +18895,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18828,7 +18997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18841,7 +19010,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(property "Description" "test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18916,7 +19085,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fdaf008e-5fb3-4100-9351-91a129b3c240")
-		(at 113.6075 67.550003 180)
+		(at 112.5 69 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -18941,7 +19110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18953,7 +19122,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18961,6 +19130,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30eb56c5-0a11-478f-bc16-36e63c38c314")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19188,14 +19370,6 @@
 		(uuid "e1e55652-54f4-4ab9-b4a2-7291c4fb7d6b")
 	)
 	(segment
-		(start 115.25 68.399999)
-		(end 115.925 68.399999)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "a82e3a34-56b8-4ae1-92ea-6aa8a28e6ff2")
-	)
-	(segment
 		(start 119.212496 96.487498)
 		(end 120.450001 97.725001)
 		(width 0.3)
@@ -19332,9 +19506,8 @@
 	)
 	(group ""
 		(uuid "7e11350e-e45c-4a8c-a37d-cc6a6a500dd5")
-		(members "99af6d0d-4578-43b0-8be0-8cf169b451cf" "a82e3a34-56b8-4ae1-92ea-6aa8a28e6ff2"
-			"b1df18f1-cf2e-4aa3-b09d-48e9b9d9aa55" "e833be26-91e5-4276-a4c5-01a190ca5c0b"
-			"fdaf008e-5fb3-4100-9351-91a129b3c240"
+		(members "99af6d0d-4578-43b0-8be0-8cf169b451cf" "b1df18f1-cf2e-4aa3-b09d-48e9b9d9aa55"
+			"e833be26-91e5-4276-a4c5-01a190ca5c0b" "fdaf008e-5fb3-4100-9351-91a129b3c240"
 		)
 	)
 	(group ""
