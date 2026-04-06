@@ -2607,6 +2607,7 @@
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 62.23 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2614,7 +2615,7 @@
 		(dnp no)
 		(uuid "24e55b2b-99e6-43e5-b5b7-fdaba1b77b82")
 		(property "Reference" "R24"
-			(at 64.7429 81.2799 0)
+			(at 59.7171 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2624,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 64.7429 85.0899 0)
+			(at 59.7171 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
