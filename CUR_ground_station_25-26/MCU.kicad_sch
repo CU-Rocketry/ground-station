@@ -3206,17 +3206,6 @@
 		)
 		(uuid "0d871a87-a141-48d6-a007-f4f0ab6b45e4")
 	)
-	(hierarchical_label "PWR_BTN"
-		(shape input)
-		(at 130.81 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12968445-1740-4ee7-b4f0-ce5f36240400")
-	)
 	(hierarchical_label "LED_1_B"
 		(shape output)
 		(at 130.81 129.54 180)
@@ -3271,6 +3260,17 @@
 			(justify right)
 		)
 		(uuid "2dca7834-2e8e-4222-a91b-87b1594eb749")
+	)
+	(hierarchical_label "BATT_VSENSE"
+		(shape input)
+		(at 130.81 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2eed2256-e186-4160-91a2-16fba1175574")
 	)
 	(hierarchical_label "BTN_4"
 		(shape input)
@@ -3393,17 +3393,6 @@
 		)
 		(uuid "8f7d2ee3-1726-492d-b12b-7f008c6172c0")
 	)
-	(hierarchical_label "BATT_VSENSE"
-		(shape input)
-		(at 130.81 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92e78b08-3e3f-4bc2-a4f9-e0cad6bd6c89")
-	)
 	(hierarchical_label "RF_TXEN"
 		(shape input)
 		(at 172.72 93.98 0)
@@ -3436,6 +3425,17 @@
 			(justify left)
 		)
 		(uuid "9f7ac5b3-c8c1-429f-b904-ba5a6b5ec48d")
+	)
+	(hierarchical_label "PWR_BTN"
+		(shape input)
+		(at 130.81 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7f38a23-b821-4d57-ac55-6b8ebbf119d3")
 	)
 	(hierarchical_label "DISP_D{slash}~{C}"
 		(shape output)

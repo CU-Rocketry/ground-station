@@ -3814,7 +3814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_SameSky:Buzzer_SameSky_CEM-1203_42"
+		(property "Footprint" "Buzzer_SameSky:Buzzer_SameSky_CPT-1207-3TH"
 			(at 255.905 27.94 90)
 			(effects
 				(font
