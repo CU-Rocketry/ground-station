@@ -3426,17 +3426,6 @@
 		)
 		(uuid "9f7ac5b3-c8c1-429f-b904-ba5a6b5ec48d")
 	)
-	(hierarchical_label "PWR_BTN"
-		(shape input)
-		(at 130.81 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7f38a23-b821-4d57-ac55-6b8ebbf119d3")
-	)
 	(hierarchical_label "DISP_D{slash}~{C}"
 		(shape output)
 		(at 172.72 104.14 0)
@@ -3469,6 +3458,17 @@
 			(justify right)
 		)
 		(uuid "ba4d70b0-ae1c-4b6b-9477-d6ce9cbe6884")
+	)
+	(hierarchical_label "PWR_BTN"
+		(shape input)
+		(at 130.81 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc92292e-3d2c-4e31-b416-de16e1877514")
 	)
 	(hierarchical_label "~{RF_RESET}"
 		(shape output)
@@ -3514,17 +3514,6 @@
 		)
 		(uuid "d057a7db-d001-4a5b-b057-b33877a3fb57")
 	)
-	(hierarchical_label "PWR_EN"
-		(shape output)
-		(at 130.81 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2ee4a42-4ae5-48a7-8813-34da9c99b904")
-	)
 	(hierarchical_label "BUZZER"
 		(shape output)
 		(at 130.81 99.06 180)
@@ -3535,6 +3524,17 @@
 			(justify right)
 		)
 		(uuid "d81c0190-0a41-4216-90f5-471bebd27b43")
+	)
+	(hierarchical_label "PWR_EN"
+		(shape output)
+		(at 130.81 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e97d14a2-ccd5-4e7e-821b-8f528d4ec4f7")
 	)
 	(hierarchical_label "~{RF_NSS}"
 		(shape output)
