@@ -3206,29 +3206,18 @@
 		)
 		(uuid "0d871a87-a141-48d6-a007-f4f0ab6b45e4")
 	)
-	(hierarchical_label "LED_1_B"
-		(shape output)
-		(at 130.81 129.54 180)
+	(hierarchical_label "RF_IO3"
+		(shape bidirectional)
+		(at 130.81 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "284c270b-af05-47f3-8d31-9c91d3111171")
+		(uuid "1709bef5-3e3a-4351-8116-15bf30b6efdd")
 	)
-	(hierarchical_label "DISP_~{RES}"
-		(shape output)
-		(at 172.72 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28f7c6ff-2221-45c0-b14a-87db7a45b48a")
-	)
-	(hierarchical_label "DISP_SCL"
+	(hierarchical_label "DISP_CS"
 		(shape output)
 		(at 172.72 109.22 0)
 		(effects
@@ -3237,7 +3226,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2ab353da-c9fd-4a8c-8bc3-d8d052ab90fe")
+		(uuid "17644ab7-de8d-4895-b46f-5c3c0688cb46")
 	)
 	(hierarchical_label "BTN_3"
 		(shape input)
@@ -3261,16 +3250,16 @@
 		)
 		(uuid "2dca7834-2e8e-4222-a91b-87b1594eb749")
 	)
-	(hierarchical_label "BATT_VSENSE"
+	(hierarchical_label "DISP_BUSY"
 		(shape input)
-		(at 130.81 96.52 180)
+		(at 172.72 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2eed2256-e186-4160-91a2-16fba1175574")
+		(uuid "2e241542-87fc-4dab-8b66-9cf736509dd1")
 	)
 	(hierarchical_label "BTN_4"
 		(shape input)
@@ -3282,6 +3271,17 @@
 			(justify left)
 		)
 		(uuid "303864f9-c434-4d3e-8abf-3347feef2c0c")
+	)
+	(hierarchical_label "LED_2_B"
+		(shape output)
+		(at 130.81 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b4ace91-291f-4a43-a2a4-b979172f7b8c")
 	)
 	(hierarchical_label "RF_RXEN"
 		(shape input)
@@ -3296,14 +3296,47 @@
 	)
 	(hierarchical_label "~{CHG}"
 		(shape input)
-		(at 130.81 86.36 180)
+		(at 130.81 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5a9b4f35-a4c9-4b72-9fb9-7b45e7bb5a89")
+		(uuid "4152116f-0497-4f19-87c4-109f289a27c0")
+	)
+	(hierarchical_label "DISP_SCL"
+		(shape output)
+		(at 172.72 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b03c0ef-e0f6-4460-8282-4a098f7405be")
+	)
+	(hierarchical_label "BATT_VSENSE"
+		(shape input)
+		(at 130.81 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "544f5df9-5bfe-42e3-8c2b-f7175d8ec81d")
+	)
+	(hierarchical_label "LED_2_G"
+		(shape output)
+		(at 130.81 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c08828d-66aa-4437-b4ec-6751c8ab6646")
 	)
 	(hierarchical_label "RF_IO2"
 		(shape bidirectional)
@@ -3327,16 +3360,16 @@
 		)
 		(uuid "60a25730-e3b2-4a8a-aa7e-a9896a090d82")
 	)
-	(hierarchical_label "LED_2_R"
-		(shape output)
-		(at 172.72 96.52 0)
+	(hierarchical_label "RF_IO1"
+		(shape bidirectional)
+		(at 130.81 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "65a8b71e-7bd3-4424-a52e-d5220abc274a")
+		(uuid "6e76110d-2c95-4e8c-8f7b-91ac2557a512")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -3349,16 +3382,16 @@
 		)
 		(uuid "701989bc-8910-4579-a96d-a15dddc83c1e")
 	)
-	(hierarchical_label "~{PGOOD}"
-		(shape input)
-		(at 130.81 88.9 180)
+	(hierarchical_label "LED_1_B"
+		(shape output)
+		(at 172.72 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "747cca95-cf07-4a07-9ce1-17f4a50af717")
+		(uuid "707b90fa-15da-4c3f-b535-bfa75cc9a176")
 	)
 	(hierarchical_label "RF_MOSI"
 		(shape output)
@@ -3371,27 +3404,16 @@
 		)
 		(uuid "7ddc9b70-d140-4553-9c48-842a2c5e74fa")
 	)
-	(hierarchical_label "RF_IO1"
-		(shape bidirectional)
-		(at 130.81 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ac29218-fe14-424e-9977-6829d1761320")
-	)
-	(hierarchical_label "DISP_CS"
+	(hierarchical_label "DISP_D{slash}~{C}"
 		(shape output)
-		(at 172.72 106.68 0)
+		(at 172.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8f7d2ee3-1726-492d-b12b-7f008c6172c0")
+		(uuid "8eb81ae4-5706-4583-a007-2a4e2306d1f3")
 	)
 	(hierarchical_label "RF_TXEN"
 		(shape input)
@@ -3404,71 +3426,38 @@
 		)
 		(uuid "933abef6-7fa4-4007-aabf-c12ad69b9c90")
 	)
-	(hierarchical_label "DISP_BUSY"
+	(hierarchical_label "PWR_BTN"
 		(shape input)
-		(at 172.72 114.3 0)
+		(at 130.81 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9bbe99db-8a66-4b94-abe7-82940c3b6904")
-	)
-	(hierarchical_label "LED_2_B"
-		(shape output)
-		(at 172.72 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f7ac5b3-c8c1-429f-b904-ba5a6b5ec48d")
-	)
-	(hierarchical_label "DISP_D{slash}~{C}"
-		(shape output)
-		(at 172.72 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac64894c-557e-4cff-9082-1194b3dad9d3")
+		(uuid "9e207e7f-727d-4fa0-ac4a-6f2acef53784")
 	)
 	(hierarchical_label "LED_1_R"
 		(shape output)
-		(at 130.81 124.46 180)
+		(at 172.72 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b4fc39fc-b28b-4aea-a7bc-5dbcc4349826")
+		(uuid "aa49023c-aed3-48bb-840b-cb4abc24e18c")
 	)
 	(hierarchical_label "LED_1_G"
 		(shape output)
-		(at 130.81 127 180)
+		(at 172.72 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ba4d70b0-ae1c-4b6b-9477-d6ce9cbe6884")
-	)
-	(hierarchical_label "PWR_BTN"
-		(shape input)
-		(at 130.81 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc92292e-3d2c-4e31-b416-de16e1877514")
+		(uuid "aa5dff82-b735-44c4-96a4-2e66b9adbb9a")
 	)
 	(hierarchical_label "~{RF_RESET}"
 		(shape output)
@@ -3480,6 +3469,17 @@
 			(justify right)
 		)
 		(uuid "c13ad2bf-5511-4f3c-bd70-6001929d4601")
+	)
+	(hierarchical_label "LED_2_R"
+		(shape output)
+		(at 130.81 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c39b3e91-85e0-4fed-9b1b-d3debad9ffcd")
 	)
 	(hierarchical_label "BTN_2"
 		(shape input)
@@ -3503,30 +3503,8 @@
 		)
 		(uuid "cd84da58-56d0-4b2d-bb9c-53cc2da3ad65")
 	)
-	(hierarchical_label "LED_2_G"
-		(shape output)
-		(at 172.72 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d057a7db-d001-4a5b-b057-b33877a3fb57")
-	)
-	(hierarchical_label "BUZZER"
-		(shape output)
-		(at 130.81 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d81c0190-0a41-4216-90f5-471bebd27b43")
-	)
-	(hierarchical_label "PWR_EN"
-		(shape output)
+	(hierarchical_label "~{PGOOD}"
+		(shape input)
 		(at 130.81 91.44 180)
 		(effects
 			(font
@@ -3534,7 +3512,18 @@
 			)
 			(justify right)
 		)
-		(uuid "e97d14a2-ccd5-4e7e-821b-8f528d4ec4f7")
+		(uuid "e39db7a2-7aa6-4162-bda4-b7716c41a4ce")
+	)
+	(hierarchical_label "BUZZER"
+		(shape output)
+		(at 130.81 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee2e1c61-acd3-40ff-aee6-4c6994170c4f")
 	)
 	(hierarchical_label "~{RF_NSS}"
 		(shape output)
@@ -3547,6 +3536,17 @@
 		)
 		(uuid "f9211dda-4f93-4b89-bbe1-4853200281d8")
 	)
+	(hierarchical_label "DISP_~{RES}"
+		(shape output)
+		(at 172.72 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb68a06d-2818-41da-9ddf-f6f1b3e7858b")
+	)
 	(hierarchical_label "RF_SCK"
 		(shape output)
 		(at 130.81 114.3 180)
@@ -3558,16 +3558,16 @@
 		)
 		(uuid "fd4b9572-8b30-4324-859c-3feb3090aed9")
 	)
-	(hierarchical_label "RF_IO3"
-		(shape bidirectional)
-		(at 130.81 106.68 180)
+	(hierarchical_label "PWR_EN"
+		(shape output)
+		(at 130.81 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ff2f37eb-1d33-49bb-ac53-9cc1e20e06da")
+		(uuid "fd4e7a13-660d-47c4-bc40-72d50f3c25b0")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
