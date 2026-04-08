@@ -2735,6 +2735,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-070RL"
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f272929a-69b8-4d14-a5cd-49a68cc14465")
 		)
@@ -2938,6 +2947,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-070RL"
+			(at 110.49 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21edf2cb-ae25-417a-9518-14a46712b3b4")
 		)
@@ -3065,6 +3083,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 39.37 63.5 0)
 			(effects
 				(font
@@ -3271,6 +3298,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KO8NNNC"
 			(at 76.2 43.18 0)
 			(effects
 				(font
@@ -3623,6 +3659,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "E22-400MM22S"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "919d9ce5-343a-4d98-9cf7-c63aef48efb3")
 		)
@@ -3875,6 +3920,15 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BWSMA-KE-P001"
 			(at 128.27 60.96 0)
 			(effects
 				(font
