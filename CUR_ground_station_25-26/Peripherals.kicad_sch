@@ -2976,6 +2976,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TS1145A16025"
+			(at 165.1 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55ef27df-a67b-4e02-91d3-63302989ca18")
 		)
@@ -2996,7 +3005,7 @@
 		(at 247.65 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3333,6 +3342,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CLV1L-FKB-CJQRNQEFGBB79353"
+			(at 50.8 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bfb6f6c-b96a-4628-848a-6e92cbaf1e49")
 		)
@@ -3406,6 +3424,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-07270RL"
+			(at 234.95 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da56d38a-10d6-4bfb-990b-ea5137230c60")
 		)
@@ -3468,6 +3495,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747RL"
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -3546,6 +3582,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-0747RL"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "883bf3ef-56b0-4638-8bc5-277972c38c28")
 		)
@@ -3608,6 +3653,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTR4003N"
 			(at 251.46 44.45 0)
 			(effects
 				(font
@@ -3681,6 +3735,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0747RL"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -3768,6 +3831,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BAT54CLT1G"
+			(at 241.3 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0e44041c-92b4-4d7c-b6e3-6043cea2329d")
 		)
@@ -3805,7 +3877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CMT-1209-390T"
+		(property "Value" "CMT-7525-03"
 			(at 260.35 31.7499 0)
 			(effects
 				(font
@@ -3814,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_SameSky:Buzzer_SameSky_CEM-1203_42"
+		(property "Footprint" "Buzzer_SameSky:XDCR_CMT-7525-03-SMT-TR"
 			(at 255.905 27.94 90)
 			(effects
 				(font
@@ -3977,6 +4049,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TS1145A16025"
+			(at 190.5 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92209f35-3949-4943-9940-9d2939d51385")
 		)
@@ -4041,6 +4122,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS1145A16025"
+			(at 152.4 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,6 +4406,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-0747RL"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cc0107b-add6-4092-aecc-7ae792e2a820")
 		)
@@ -4386,6 +4485,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-07270RL"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6dd13396-117b-45b1-bbb9-8cee95fe6737")
 		)
@@ -4447,6 +4555,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -4526,6 +4643,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TS1145A16025"
+			(at 177.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6904766c-2b72-42b3-b74a-657555c4dd98")
 		)
@@ -4588,6 +4714,15 @@
 		)
 		(property "Description" "RGB LED, anode/red/green/blue"
 			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLV1L-FKB-CJQRNQEFGBB79353"
+			(at 76.2 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,6 +4798,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07270RL"
 			(at 68.58 44.45 0)
 			(effects
 				(font
