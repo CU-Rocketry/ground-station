@@ -5659,6 +5659,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "455fa9d9-7ec8-4826-8138-80d0c82d732e")
 		)
@@ -5936,6 +5945,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45959250-ed59-44de-9951-5c8c85c15991")
 		)
@@ -5996,6 +6014,15 @@
 			)
 		)
 		(property "Description" "USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC, VQFN-16"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ24232RGTR"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -6183,6 +6210,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "NCP186AMX330TAG"
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "572810dc-803c-4203-8de6-9394db96b979")
 		)
@@ -6275,6 +6311,15 @@
 			)
 		)
 		(property "HQ_MPN" "DS0140568"
+			(at 215.9 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT54CLT1G"
 			(at 215.9 38.1 90)
 			(effects
 				(font
@@ -6486,6 +6531,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 101.6 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6bfc3ef-e969-46dc-aef4-55abcb90fb63")
 		)
@@ -6548,6 +6602,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 25.4 64.77 0)
 			(effects
 				(font
@@ -6807,6 +6870,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 25.4 82.55 0)
 			(effects
 				(font
@@ -7084,6 +7156,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -7374,6 +7455,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6f484a1-e4d1-4684-9dcf-972bc9309a7d")
 		)
@@ -7436,6 +7526,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -7576,6 +7675,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-071K74L"
+			(at 101.6 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f24c4986-475a-4e1b-944f-d8d8fdbb2bce")
 		)
@@ -7638,6 +7746,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 25.4 74.93 0)
 			(effects
 				(font
@@ -7885,6 +8002,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BAT54CLT1G"
+			(at 187.96 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2a083c2e-f959-46fd-a020-cf43c91456bd")
 		)
@@ -7966,6 +8092,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-07270RL"
+			(at 215.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98e09fc9-8f25-47b5-8a87-96189b8d5e2b")
 		)
@@ -8034,6 +8169,15 @@
 			)
 		)
 		(property "HQ_MPN" "SKRPADE010"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS1145A16025"
 			(at 200.66 50.8 0)
 			(effects
 				(font
@@ -8238,6 +8382,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 22.86 121.92 0)
 			(effects
 				(font
@@ -8724,6 +8877,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 114.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "323fe460-e118-44fd-96f5-2ce6228cbf5e")
 		)
@@ -8795,6 +8957,15 @@
 			)
 		)
 		(property "HQ_MPN" "DS0188329"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTR4003N"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -8934,6 +9105,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 25.4 90.17 0)
 			(effects
 				(font
@@ -9151,6 +9331,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-07270RL"
+			(at 210.82 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ff2ce48-8731-4fad-9df7-7466c1b2c835")
 		)
@@ -9353,6 +9542,15 @@
 			)
 		)
 		(property "HQ_MPN" "WR04X1003FTL"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 215.9 81.28 0)
 			(effects
 				(font
