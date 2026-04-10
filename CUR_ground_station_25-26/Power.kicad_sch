@@ -3675,17 +3675,6 @@
 		)
 		(uuid "8cf64904-ff37-4f9d-8502-dae7d9f7f0f6")
 	)
-	(text "TODO:\nchoose battery\nso we know connector\nand polarity"
-		(exclude_from_sim no)
-		(at 40.386 28.448 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "8d61a7b2-a29f-46c1-af15-e05812cc321e")
-	)
 	(text "Battery"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
@@ -3786,6 +3775,17 @@
 			)
 		)
 		(uuid "e807d9f6-92bc-4d5b-8196-0ef00c16dccb")
+	)
+	(text "battery in question"
+		(exclude_from_sim no)
+		(at 23.622 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.amazon.com/MakerHawk-Rechargeable-Protection-Insulated-Development/dp/B0D3LP6F8G")
+		)
+		(uuid "ee24ee44-b328-4ace-8796-002d66f26d36")
 	)
 	(junction
 		(at 144.78 60.96)
@@ -8076,7 +8076,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "0530480210"
 			(at 30.48 26.67 0)
 			(effects
 				(font
@@ -8093,7 +8093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/530480210_sd.pdf"
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -8103,6 +8103,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0530480210"
 			(at 30.48 30.48 0)
 			(effects
 				(font
